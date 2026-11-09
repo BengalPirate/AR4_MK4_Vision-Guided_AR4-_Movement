@@ -17,7 +17,7 @@ from reportlab.platypus import (Image, KeepTogether, PageBreak, Paragraph, Simpl
                                 Spacer, Table, TableStyle)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-REPO_URL = "https://github.com/BengalPirate/AR4_MK4_Team-Vision"
+REPO_URL = "https://github.com/BengalPirate/AR4_MK4_Vision-Guided_AR4-_Movement"
 OUT = os.path.join(ROOT, "Team2_Checkpoint1_Report.pdf")
 
 ss = getSampleStyleSheet()
