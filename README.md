@@ -8,9 +8,8 @@ unreachable targets are refused, and all motion runs at low, fixed speed.
 
 This is **Checkpoint 1** of the vision-guided AR4 chess assignment.
 
-**Demonstration videos:** *(add YouTube links)*
-- Camera-guided moves to several target positions: `https://youtu.be/...`
-- Failure handling (covered marker, two targets, stop, E-stop and recovery): `https://youtu.be/...`
+**Demonstration video:**
+- Camera-guided moves to different target positions: https://www.youtube.com/watch?v=LK-3bo5Rrmg
 
 ![Board map](docs/board_map.png)
 

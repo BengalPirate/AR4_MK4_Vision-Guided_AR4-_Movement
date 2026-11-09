@@ -18,6 +18,7 @@ from reportlab.platypus import (Image, KeepTogether, PageBreak, Paragraph, Simpl
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPO_URL = "https://github.com/BengalPirate/AR4_MK4_Vision-Guided_AR4-_Movement"
+VIDEO_URL = "https://www.youtube.com/watch?v=LK-3bo5Rrmg"
 OUT = os.path.join(ROOT, "Team2_Checkpoint1_Report.pdf")
 
 ss = getSampleStyleSheet()
@@ -95,6 +96,8 @@ def main():
     s += [P("Vision-Guided AR4 Chess – Checkpoint 1", H1),
           P("<b>Team 2:</b> Brandon Newton, Roshan Padhan, Andrew Overton<br/>"
             f"<b>Repository:</b> <link href='{REPO_URL}'>{REPO_URL}</link><br/>"
+            f"<b>Video:</b> <link href='{VIDEO_URL}'>{VIDEO_URL}</link> "
+            "(camera-guided moves to different targets)<br/>"
             "<b>Robot:</b> Annin AR4 MK4, Teensy 4.1, Annin firmware 6.7.1 &nbsp; "
             "<b>Camera:</b> Logitech C930e (1280×720) &nbsp; <b>Date:</b> November 9, 2026"),
           Spacer(1, 8),
