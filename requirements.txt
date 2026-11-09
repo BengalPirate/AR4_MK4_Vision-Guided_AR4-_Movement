@@ -1,0 +1,5 @@
+pyserial>=3.5
+numpy>=1.26
+opencv-python>=4.8           # needs cv2.aruco.ArucoDetector (OpenCV >= 4.7); tested with 5.0.0
+matplotlib>=3.8              # analyze.py plots only
+reportlab>=4.0              # docs/make_report.py only
